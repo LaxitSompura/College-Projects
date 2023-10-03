@@ -1,91 +1,111 @@
+/* Define styles for the entire body */
 body {
-    background: #720e9e;
-    text-align: center;
-    font-size: 2em;
-    color: white;
-}
-header{
-    background-color: #452c63;
-    padding: 0.1%;
+    background: #720e9e; /* Background color */
+    text-align: center; /* Center-align text */
+    font-size: 2em; /* Font size */
+    color: white; /* Text color */
 }
 
-header > h1{
-    font-family: 'Bebas Neue', sans-serif;
-    text-shadow: -5px 2px red;
-}
-header > h2{
-    font-family: 'Satisfy', cursive;
-    text-shadow: -5px 2px red;
+/* Define styles for the header */
+header {
+    background-color: #452c63; /* Header background color */
+    padding: 0.1%; /* Padding for the header */
 }
 
+/* Define styles for the h1 element within the header */
+header > h1 {
+    font-family: 'Bebas Neue', sans-serif; /* Font family */
+    text-shadow: -5px 2px red; /* Text shadow */
+}
+
+/* Define styles for the h2 element within the header */
+header > h2 {
+    font-family: 'Satisfy', cursive; /* Font family */
+    text-shadow: -5px 2px red; /* Text shadow */
+}
+
+/* Define styles for the .word1 class */
 .word1 {
-    text-align: left;
-    font-size: 70px;
-    color:#FFD700;
-    margin-left: 35%;
-    font-family: 'Pacifico', sans-serif;
-}
-.line0{
-    color: #FFFF00;
-    font-weight: bold;
-}
-.line2{
-    font-family: 'Satisfy', cursive;
-    font-size: 60px;
-    color: #FFD700;
+    text-align: left; /* Left-align text */
+    font-size: 70px; /* Font size */
+    color: #FFD700; /* Text color */
+    margin-left: 35%; /* Left margin */
+    font-family: 'Pacifico', sans-serif; /* Font family */
 }
 
-.line3{
-    font-size: 50px;
-    font-family: 'Permanent Marker', cursive;   
+/* Define styles for the .line0 class */
+.line0 {
+    color: #FFFF00; /* Text color */
+    font-weight: bold; /* Bold font */
 }
 
-.line4{
-    font-size: 45px;
-    font-style: italic;
-    color: #F0E68C;
+/* Define styles for the .line2 class */
+.line2 {
+    font-family: 'Satisfy', cursive; /* Font family */
+    font-size: 60px; /* Font size */
+    color: #FFD700; /* Text color */
 }
 
-.line5{
-    font-size: 55px;
-    font-family: 'Zeyada', cursive;
-    font-weight: bolder;
-    color: #FFFF00;
+/* Define styles for the .line3 class */
+.line3 {
+    font-size: 50px; /* Font size */
+    font-family: 'Permanent Marker', cursive; /* Font family */
 }
 
-.line6{
-    color: #FFC72C;
-    font-family: 'Satisfy', cursive;
-    font-size: 40px;
+/* Define styles for the .line4 class */
+.line4 {
+    font-size: 45px; /* Font size */
+    font-style: italic; /* Italic font style */
+    color: #F0E68C; /* Text color */
 }
 
-.word2{
-    font-family: 'Pacifico', sans-serif;
-    color:#FFFF00;
-    font-size: 55px;
+/* Define styles for the .line5 class */
+.line5 {
+    font-size: 55px; /* Font size */
+    font-family: 'Zeyada', cursive; /* Font family */
+    font-weight: bolder; /* Bolder font */
+    color: #FFFF00; /* Text color */
 }
 
-.line7{
-    color: #FFC72C ;
-    font-style: italic;
-    font-size: 38px;
+/* Define styles for the .line6 class */
+.line6 {
+    color: #FFC72C; /* Text color */
+    font-family: 'Satisfy', cursive; /* Font family */
+    font-size: 40px; /* Font size */
 }
 
-.line8{
-    color: #FFFF00;
-    font-family: 'Zeyada', cursive;
-    font-size: 40px;
-    font-weight: bold;
+/* Define styles for the .word2 class */
+.word2 {
+    font-family: 'Pacifico', sans-serif; /* Font family */
+    color: #FFFF00; /* Text color */
+    font-size: 55px; /* Font size */
 }
 
-.mainline >p{
-    font-size: 50px;
-    font-family: 'Satisfy', cursive;
-    color:#FFFF00;
+/* Define styles for the .line7 class */
+.line7 {
+    color: #FFC72C; /* Text color */
+    font-style: italic; /* Italic font style */
+    font-size: 38px; /* Font size */
 }
 
+/* Define styles for the .line8 class */
+.line8 {
+    color: #FFFF00; /* Text color */
+    font-family: 'Zeyada', cursive; /* Font family */
+    font-size: 40px; /* Font size */
+    font-weight: bold; /* Bold font */
+}
+
+/* Define styles for paragraphs within .mainline */
+.mainline > p {
+    font-size: 50px; /* Font size */
+    font-family: 'Satisfy', cursive; /* Font family */
+    color: #FFFF00; /* Text color */
+}
+
+/* Define styles for the .line9 class */
 .line9 {
-    font-family: 'Satisfy', cursive;
-    font-size: 40px;
-    color:#F0E68C;
+    font-family: 'Satisfy', cursive; /* Font family */
+    font-size: 40px; /* Font size */
+    color: #F0E68C; /* Text color */
 }
