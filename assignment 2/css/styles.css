@@ -1,0 +1,91 @@
+body {
+    background: #720e9e;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+header{
+    background-color: #452c63;
+    padding: 0.1%;
+}
+
+header > h1{
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: -5px 2px red;
+}
+header > h2{
+    font-family: 'Satisfy', cursive;
+    text-shadow: -5px 2px red;
+}
+
+.word1 {
+    text-align: left;
+    font-size: 70px;
+    color:#FFD700;
+    margin-left: 35%;
+    font-family: 'Pacifico', sans-serif;
+}
+.line0{
+    color: #FFFF00;
+    font-weight: bold;
+}
+.line2{
+    font-family: 'Satisfy', cursive;
+    font-size: 60px;
+    color: #FFD700;
+}
+
+.line3{
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;   
+}
+
+.line4{
+    font-size: 45px;
+    font-style: italic;
+    color: #F0E68C;
+}
+
+.line5{
+    font-size: 55px;
+    font-family: 'Zeyada', cursive;
+    font-weight: bolder;
+    color: #FFFF00;
+}
+
+.line6{
+    color: #FFC72C;
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+}
+
+.word2{
+    font-family: 'Pacifico', sans-serif;
+    color:#FFFF00;
+    font-size: 55px;
+}
+
+.line7{
+    color: #FFC72C ;
+    font-style: italic;
+    font-size: 38px;
+}
+
+.line8{
+    color: #FFFF00;
+    font-family: 'Zeyada', cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.mainline >p{
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+    color:#FFFF00;
+}
+
+.line9 {
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+    color:#F0E68C;
+}
